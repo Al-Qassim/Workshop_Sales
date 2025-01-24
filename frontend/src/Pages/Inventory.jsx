@@ -28,7 +28,7 @@ export default function Inventory() {
         // AddToCartButton:            {Function: (row, key, value) => {return }},
         Buttons:                    {HideWhenMouseNotOnRow: true, DontExport: true, Function: (row, key, value, TableState, setTableState) => {
 
-                                                                            return  <div style={{display: "flex", flexDirection: "row", gap: "10px", alignItems: "center"}}> 
+                                                                            return  <div className="buttons-container-in-rows"> 
                                                                                         <QuantityInCart InventoryRow={row}/>
                                                                                         <img // edit-button
                                                                                             src="/Workshop_Sales/Icons/pencil-black.png"

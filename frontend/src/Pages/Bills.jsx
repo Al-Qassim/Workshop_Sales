@@ -48,7 +48,7 @@ export default function Bills() {
         BillType:       {header: "Bill Type", filter: true, Function: (row, key, value) => {return GetData("Billtypes", "Id", row.BillTypeId, "Type", state.data)}},
         BillTypeId:     {hide: true},
         Buttons:        {HideWhenMouseNotOnRow: true, DontExport: true, Function: (row, key, value, TableState, setTableState) => {
-                            return  <div style={{display: "flex", flexDirection: "row", gap: "10px", alignItems: "center"}}>
+                            return  <div className="buttons-container-in-rows">
                                         <img // list-button
                                             src="/Workshop_Sales/Icons/list-black.png"
                                             key={`SubTransactions`}

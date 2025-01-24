@@ -16,7 +16,7 @@ export default function Categories() {
         Id:             {hide: true},
         Category:       {header: "Category", SortFunction: ((a, b) => {return a.localeCompare(b)})},              
         Buttons:        {HideWhenMouseNotOnRow: true, Function: (row, key, value, TableState, setTableState) => {
-                            return  <div style={{display: "flex", flexDirection: "row", gap: "10px", alignItems: "center"}}> 
+                            return  <div className="buttons-container-in-rows"> 
                                         <img // edit-button
                                             src="/Workshop_Sales/Icons/pencil-black.png"
                                             key={`EditButton`}

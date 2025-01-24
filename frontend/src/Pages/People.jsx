@@ -74,7 +74,7 @@ export default function People() {
         Info:           {header: "Info"},
         Debt:           {header: "Debt", Format: FormatMoney},
         Buttons:        {HideWhenMouseNotOnRow: true, Function: (row, key, value, TableState, setTableState) => {
-                            return  <div style={{display: "flex", flexDirection: "row", gap: "10px", alignItems: "center"}}> 
+                            return  <div className="buttons-container-in-rows"> 
                                         <img // delete-button
                                             src="/Workshop_Sales/Icons/trash-black.png"
                                             key={`Delete-button `}
