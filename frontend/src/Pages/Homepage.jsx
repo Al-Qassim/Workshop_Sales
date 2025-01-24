@@ -150,7 +150,7 @@ export default function Homepage({ PagesTitles }) {
                 onClick={() => {setShowCreateSpecialBillForm(true)}}
                 key="CreateSpecialBill"
             >
-                <img src={`/HomepageIcons/CreateSpecialBill.png`}/>
+                <img src={`/Workshop_Sales/HomepageIcons/CreateSpecialBill.png`}/>
                 <button  
                     key="CreateSpecialBill"
                     >
