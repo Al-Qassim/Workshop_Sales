@@ -7,8 +7,8 @@ export default function PageToolBar({Title, HideSearchAndFilterSection, setHideS
 
     return <div className="PageToolBar">
         {/* <img className="IconButton" src="/Icons/shopping-cart-black.png" onClick={() => {setState({...state, VisiblePage: "Cart"})}}/> */}
-        <img className="IconButton" src="/Icons/home-black.png" onClick={() => {setState({...state, VisiblePage: "Homepage"})}}/>
-        {typeof HideSearchAndFilterSection == "boolean" && <img className="IconButton" src="/Icons/settings-sliders.png" onClick={() => {
+        <img className="IconButton" src="/Workshop_Sales/Icons/home-black.png" onClick={() => {setState({...state, VisiblePage: "Homepage"})}}/>
+        {typeof HideSearchAndFilterSection == "boolean" && <img className="IconButton" src="/Workshop_Sales/Icons/settings-sliders.png" onClick={() => {
             if (HideSearchAndFilterSection){
                 setHideSearchAndFilterSection(false)
             } else {

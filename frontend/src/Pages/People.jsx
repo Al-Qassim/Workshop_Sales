@@ -76,7 +76,7 @@ export default function People() {
         Buttons:        {HideWhenMouseNotOnRow: true, Function: (row, key, value, TableState, setTableState) => {
                             return  <div style={{display: "flex", flexDirection: "row", gap: "10px", alignItems: "center"}}> 
                                         <img // delete-button
-                                            src="/Icons/trash-black.png"
+                                            src="/Workshop_Sales/Icons/trash-black.png"
                                             key={`Delete-button `}
                                             className="IconButton IconButtonDelete"
                                             onClick={()=>{
@@ -96,7 +96,7 @@ export default function People() {
                                             }}
                                         />
                                         <img // edit-button
-                                            src="/Icons/pencil-black.png"
+                                            src="/Workshop_Sales/Icons/pencil-black.png"
                                             key={`EditButton `}
                                             className="IconButton"
                                             onClick={()=>{
@@ -117,7 +117,7 @@ export default function People() {
                                             }}
                                         />
                                         <img // list-button
-                                            src="/Icons/list-black.png"
+                                            src="/Workshop_Sales/Icons/list-black.png"
                                             key={`SubTransactions `}
                                             className="IconButton"
                                             onClick={()=>{
@@ -138,7 +138,7 @@ export default function People() {
                                             }}
                                         />
                                         <img // PayDebt-button
-                                            src="/Icons/PayDebt.png"
+                                            src="/Workshop_Sales/Icons/PayDebt.png"
                                             key="PayDebt"
                                             className="IconButton"
                                             onClick={()=>{

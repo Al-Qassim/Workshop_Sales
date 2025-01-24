@@ -55,7 +55,7 @@ export function QuantityInCart({ InventoryRow }) {
     return (
         <div className="QuantityInCart">
             <img 
-                src="/Icons/shopping-cart-black.png"
+                src="/Workshop_Sales/Icons/shopping-cart-black.png"
                 key={`cart ${InventoryRow.Id}`}
                 className="IconButton border-none"
             />

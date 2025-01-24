@@ -50,7 +50,7 @@ export default function Bills() {
         Buttons:        {HideWhenMouseNotOnRow: true, DontExport: true, Function: (row, key, value, TableState, setTableState) => {
                             return  <div style={{display: "flex", flexDirection: "row", gap: "10px", alignItems: "center"}}>
                                         <img // list-button
-                                            src="/Icons/list-black.png"
+                                            src="/Workshop_Sales/Icons/list-black.png"
                                             key={`SubTransactions`}
                                             className="IconButton"
                                             onClick={()=>{
@@ -71,7 +71,7 @@ export default function Bills() {
                                             }}
                                         />
                                         <img // print-button
-                                            src="/Icons/print-black.png"
+                                            src="/Workshop_Sales/Icons/print-black.png"
                                             key={`print-button`}
                                             className="IconButton"
                                             onClick={()=>{
@@ -80,7 +80,7 @@ export default function Bills() {
                                             }}
                                         />
                                         <img // edit-button
-                                            src="/Icons/pencil-black.png"
+                                            src="/Workshop_Sales/Icons/pencil-black.png"
                                             key={`EditButton`}
                                             className="IconButton"
                                             onClick={()=>{
@@ -101,7 +101,7 @@ export default function Bills() {
                                             }}
                                         />
                                         <img // delete-button
-                                            src="/Icons/trash-black.png"
+                                            src="/Workshop_Sales/Icons/trash-black.png"
                                             key={`Delete-button`}
                                             className="IconButton IconButtonDelete"
                                             onClick={()=>{

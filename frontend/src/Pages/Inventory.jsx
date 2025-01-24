@@ -31,7 +31,7 @@ export default function Inventory() {
                                                                             return  <div style={{display: "flex", flexDirection: "row", gap: "10px", alignItems: "center"}}> 
                                                                                         <QuantityInCart InventoryRow={row}/>
                                                                                         <img // edit-button
-                                                                                            src="/Icons/pencil-black.png"
+                                                                                            src="/Workshop_Sales/Icons/pencil-black.png"
                                                                                             key={`EditButton`}
                                                                                             className="IconButton"
                                                                                             onClick={()=>{
@@ -51,7 +51,7 @@ export default function Inventory() {
                                                                                             }}
                                                                                         />
                                                                                         <img // delete-button
-                                                                                            src="/Icons/trash-black.png"
+                                                                                            src="/Workshop_Sales/Icons/trash-black.png"
                                                                                             key={`Delete-button`}
                                                                                             className="IconButton IconButtonDelete"
                                                                                             onClick={()=>{

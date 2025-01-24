@@ -47,7 +47,7 @@ export default function TopBar() {
         {state.VisiblePage == "Homepage" && <>
         <img 
             className="TobBarImage" 
-            src="/Icons/list-green.png" 
+            src="/Workshop_Sales/Icons/list-green.png" 
             alt="Options Image"
             style={{cursor: "pointer"}}
             onClick={()=>{

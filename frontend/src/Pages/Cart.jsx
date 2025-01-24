@@ -74,7 +74,7 @@ export default function Cart() {
                                     Function: (row, key, value) => {
                                         return (
                                             <img // delete-button
-                                            src="/Icons/trash-black.png"
+                                            src="/Workshop_Sales/Icons/trash-black.png"
                                             key={`Delete-button`}
                                             className="IconButton IconButtonDelete"
                                             onClick={()=>{
