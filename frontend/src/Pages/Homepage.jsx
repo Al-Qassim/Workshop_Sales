@@ -135,7 +135,7 @@ export default function Homepage({ PagesTitles }) {
                 key = {PageKey}
                 onClick={() => {setState({...state, VisiblePage: PageKey})}}
             >
-                <img src={`/HomepageIcons/${PageKey}.png`}/>
+                <img src={`/Workshop_Sales/HomepageIcons/${PageKey}.png`}/>
                 <button 
                     key={PageKey}
                 >
