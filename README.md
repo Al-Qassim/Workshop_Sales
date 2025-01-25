@@ -8,3 +8,6 @@
 - **Gain Financial Insights**: Access detailed statistics and reports to understand your business performance and make data-driven decisions.  
 
 Whether you're a small business owner or managing a large enterprise, **Workshot** empowers you to stay organized and maximize profitability.
+
+see a demo here:
+https://al-qassim.github.io/Workshop_Sales/
