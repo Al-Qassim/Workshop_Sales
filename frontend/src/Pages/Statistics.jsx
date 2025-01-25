@@ -82,7 +82,7 @@ export default function Statistics() {
                         setInterval(e.target.value)
                     }}
                     className="button"
-                    style={{margin: "25px"}}
+                    // style={{margin: "25px"}}
                     value={Interval}
                 >
                     <option value="Day">Day</option>

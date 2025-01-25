@@ -80,7 +80,7 @@ export function DownloadCSV({TableData, TableColumns}) {
         <div className="DownloadCSV">
             <button 
                 className="button green-button"
-                style={{margin: "25px"}}
+                // style={{margin: "25px"}}
                 onClick={saveFile}
             >Export Table</button>
         </div>

@@ -42,7 +42,14 @@ export default function TopBar() {
 
 
     return <div className="TopBar">
-        <h1>Workshot</h1>
+        <h1 onClick={()=>{
+                        setState({
+                            ...state,
+                            VisiblePage: "Homepage"
+                        })
+                    }}
+            
+                    >Workshot</h1>
         {/* <img className="TitleImage" src="/bussiness/Title.png" alt="Title Image"/> */}
         {state.VisiblePage == "Homepage" && <>
         <img 

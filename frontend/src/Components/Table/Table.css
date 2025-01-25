@@ -16,28 +16,29 @@
     background-color: #ffffff;
     border: 1px solid #dddddd;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
-    border-radius: 15px;
-    margin: 25px;
+    border-radius: 1vw;
+    margin: 1%;
+    padding: min(2vw, 2vh);
     /* min-height: 300px; */
-    min-width: 300px;
+    min-width: 20vw;
     /* text-align: right; */
     /* padding-right: 20px; */
 }
 .SearchInput{
-    /* max-width: 100%; */
-    margin: 25px;
-    padding: 12px;
+    width: 90%;
+    margin-bottom: 10%;
+    padding: 3%;
     background-color: #efffff;
     border: 2px solid #adc4c4;
-    border-radius: 5px;
+    border-radius: .5vw;
     font-size: 1em;
     /* text-align: right; */
 }
 .FilterSection{
     border: 1px solid #adc4c4;
     border-radius: 5px;
-    margin: 25px;
-    padding: 10px;
+    margin: 5%;
+    padding: 5%;
     font-size: 1em;
 }
 .sheet{

@@ -259,13 +259,13 @@ export default function Cart() {
         const [ShowFinishSellForm, setShowFinishSellForm] = useState(false)
 
         return <div className="FinishSellForm">
-            <h2 style={{marginLeft: "20px"}}>{/* Total */}
+            <h2>{/* Total */}
                 Total Cost:&nbsp; 
                 {FormatMoney(TotalCost())}
             </h2>
             
-            <button style={{marginLeft: "20px"}} key="FinishSellButton" className="button green-button" onClick={()=>{setShowFinishSellForm(true)}}>Finish Selling</button>
-            <button style={{marginLeft: "20px"}} key="CartEmptyButton" className="button red-button" onClick={EmptyCart}>Empty Cart</button>
+            <button key="FinishSellButton" className="button green-button" onClick={()=>{setShowFinishSellForm(true)}}>Finish Selling</button>
+            <button key="CartEmptyButton" className="button red-button" onClick={EmptyCart}>Empty Cart</button>
             {ShowFinishSellForm && <>
             <Form      
                 FormTitle={"Finish Selling Form"}

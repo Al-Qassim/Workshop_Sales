@@ -353,7 +353,7 @@ export default function Inventory() {
         if (!AddNewItemFormVisibility) { 
             return <><button 
                 className="button green-button"
-                style={{margin: "25px"}}
+                // style={{margin: "25px"}}
                 onClick={()=>{
                     setAddNewItemFormVisibility(true)
                 }}

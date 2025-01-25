@@ -69,6 +69,7 @@ body {
 }
 .TopBar h1{
     color: rgb(15, 146, 42);
+    cursor: pointer;
 }
 .TitleImage{
     height: 100px;
@@ -95,15 +96,16 @@ body {
 .button {
     /* max-width: 125px; */
     /* width: auto; */
-    padding: 10px;
-    margin: 10px;
+    padding: 3%;
+    margin-right: 5%;
+    margin-bottom: 3%;
     border: 1px solid #1fac99;
-    border-radius: 10px;
+    border-radius: calc(min(.5vh, .5vw));
     /* width: 100%; */
     background-color: #ffffff;
     color: #444444;
     font-weight: bold;
-    font-size: 1em;
+    font-size: calc(min(1vh, 1vw));
     cursor: pointer;
 }
 .input{
@@ -177,14 +179,6 @@ body {
     font-size: 1em;
     border-radius: 10px;
 }
-.FinishSellForm{
-    padding: 15px;
-    max-width: 300px;
-}
-.FinishSellForm h2{
-    padding: 15px;
-}
-
 /*  */
 .PageToolBar{
     display: flex;
@@ -199,13 +193,14 @@ body {
     /* box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); */
 }
 .PageToolBar .IconButton{
-    height: 35px;
+    height: calc(min(4vh, 4vw));
 }
 .PageTitle{
     /* margin-left: auto;
     margin-right: 20px; */
     margin-left: 20px;
     margin-right: auto;
+    font-size: calc(max(2vh, 2vw));
 }
 /*  */
 #Close{
@@ -252,30 +247,39 @@ body {
     /* margin: 5px; */
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
     text-align: right;
-    font-size: 1.25rem;
+    font-size: calc(min(2vh, 2vw));
     /* width: 70%; */
     padding-left: 5%;
     padding-right: 5%;
+    padding-bottom: 5%;
     overflow-y:auto ;
+    margin-left: 10%;
+    margin-right: 10%;
     max-height: 80vh;
     /* margin-top: 200px; */
+}
+@media (max-aspect-ratio: 10/10) {
+    .Form{
+        font-size: calc(min(4vh, 4vw));
+    }
 }
 .Form .input {
     background-color:#f0f0f0;
     border: none;
     border-radius: 5px;
+    width: 50%;
     /* text-align: right; */
 }
 .Form label{
     display: flex;
     /* flex-flow: row-reverse; */
-    align-items: start;
+    align-items: stretch;
     /* text-align: right; */
     text-align: left;
 }
 .Form span {
     /* background-color: #1fac99; */
-    min-width: 250px;
+    min-width: 40%;
 }
 .Form h1{
     text-align: center;
@@ -285,7 +289,7 @@ body {
     color: rgb(15, 146, 42);
 }
 .Form textarea{
-    min-height: 100px;
+    min-height: 8vh;
     background-color:#f0f0f0;
     border: none;
     border-radius: 5px;
@@ -295,6 +299,9 @@ body {
     padding: 10px;
     margin: 10px;
     font-size: 1.25rem;
+}
+.Form .button{
+    font-size: calc(1.5vh)
 }
 /*  */
 .HomepageIcons{
@@ -353,23 +360,6 @@ body {
     }
 }
 
-/* @media (max-width: 810px) {
-    .HomepageIcons{
-        padding-left: 15%;
-        padding-right: 15%;
-        padding-top: 5%;
-        gap: 5vw;
-        
-    }
-    .HomepageIcon{
-        width: 25vw;
-        height: calc(180*25vw/250);
-    }
-    .HomepageIcon button{
-        font-size: 1.3rem;
-    }
-} */
-  
 .HomepageIcon img{
     height: 50%;
     object-fit: contain;
