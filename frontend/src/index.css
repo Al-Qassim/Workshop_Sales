@@ -105,8 +105,14 @@ body {
     background-color: #ffffff;
     color: #444444;
     font-weight: bold;
-    font-size: calc(min(1vh, 1vw));
+    font-size: calc(min(2vh, 2vw));
+    /* font-size: calc(1.5vh); */
     cursor: pointer;
+}
+@media (max-aspect-ratio: 10/10) {
+    .button{
+        font-size: calc(min(1.5vh, 1.5vw));
+    }
 }
 .input{
     max-width: 50%;

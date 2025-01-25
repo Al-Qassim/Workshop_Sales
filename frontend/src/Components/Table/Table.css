@@ -41,6 +41,14 @@
     padding: 5%;
     font-size: 1em;
 }
+.FilterInput{
+    width: 8%;
+    aspect-ratio: 1;
+}
+.FilterOption{
+    display: flex;
+    align-items: center;
+}
 .sheet{
     /* grid-row: 1 / 3;
     grid-column: 1 / 2; */

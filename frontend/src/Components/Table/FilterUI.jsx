@@ -27,7 +27,7 @@ export default function FilterUI({TableState, setTableState, TableData, TableCol
                     onChange={(e) => {return HandleChange(k, e.target.value)}}
                     checked={TableState.Filters[`${k}`]==option}
                 />
-                {option == "All" ? "All" : option}
+                <span>{option == "All" ? "All" : option}</span>
             </label>
             <br key={`br ${k} ${option}`}></br>
             </div>

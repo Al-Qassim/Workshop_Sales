@@ -24,7 +24,7 @@ export default function Sheet({ TableData, TableColumns, TableState, setTableSta
                             <th 
                                 className="sheet-head-cell" 
                                 key="index"
-                                style={{maxWidth: "20px"}}
+                                style={{maxWidth: "2%"}}
                             ></th>
                         }
                         {
@@ -74,7 +74,7 @@ export default function Sheet({ TableData, TableColumns, TableState, setTableSta
                                         <td 
                                             className="sheet-body-cell" 
                                             key="index" 
-                                            style={{maxWidth: "20px"}}
+                                            style={{maxWidth: "2%"}}
                                         >{index+1}</td>
                                     }
                                     {keys.map(
